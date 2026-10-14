@@ -37,5 +37,8 @@ Resource: Oman Royal Decree No. 6/2022 Promulgating the Personal Data Protection
 
 
 ## Misconception in My Track
+A common wrong belief in software engineering is that successful validation of an OAuth 2.0 access token is sufficient proof of user authentication. In reality, an access token only proves that a client has been granted delegated access to specific resources, not who the user is or when they logged in. This is explicitly proven in RFC 6749, Section 1.0, under the definition of "Authorization Grant", which states it is a credential representing the resource owner's authorization, distinct from end-user identity verification.
 
 ## Open Question
+I would next verify how the NAFATH-V1 service handles identity provider session timeouts when a citizen simultaneously accesses multiple cross-departmental government applications.
+
