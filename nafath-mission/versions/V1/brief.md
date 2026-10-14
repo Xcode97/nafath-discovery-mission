@@ -21,10 +21,20 @@ Resource: Android Developers Documentation - Request runtime permissions - https
 
 
 ## Networking
+DNS over HTTPS (DoH) encrypts domain name lookups inside standard HTTPS traffic. For NAFATH-V1 users, DoH protects against eavesdropping, spoofing, and local internet service provider tracking of their lookups. However, DoH does not protect or hide the final destination IP address of the government website, nor does it secure the actual payload data if the endpoint server itself is compromised.
+
+Resource: RFC 8484 - DNS Queries over HTTPS (DoH) - https://ietf.org
 
 ## Cybersecurity
+An authentication method is phishing-resistant if it cryptographically binds the authentication credential to the specific origin domain of the service. Multi-factor authentication (MFA) methods like FIDO2/WebAuthn hardware keys and passkeys qualify because they prevent credential interception. Conversely, SMS one-time passwords, voice codes, and standard mobile push notifications do not qualify because users can be tricked into revealing them.
+
+Resource: NIST SP 800-63B - Digital Identity Guidelines: Authentication and Lifecycle Management - https://nist.gov
 
 ## Data
+Under Oman's Personal Data Protection Law, the authority faces strict statutory obligations when processing citizens' data. It must obtain explicit user consent before collection and process data transparently for specified legal purposes. The authority must implement robust data security measures, notify regulators of data breaches, maintain accurate processing logs, and guarantee citizens their rights to data correction, erasure, and access.
+
+Resource: Oman Royal Decree No. 6/2022 Promulgating the Personal Data Protection Law - https://mjla.gov.om
+
 
 ## Misconception in My Track
 
