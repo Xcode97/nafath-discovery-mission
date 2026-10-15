@@ -2,5 +2,5 @@
 4f97f2b overview: connect the six subtopics
 0a6da72 research: software, ai, mobile
 8434a39 research: networking, cybersecurity, data
-analysis: misconception and open question
+e473467 analysis: misconception and open question
 revise: overview
